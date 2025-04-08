@@ -9,6 +9,7 @@ from sklearn.neighbors import NearestNeighbors
 st.set_page_config(page_title="Phân Tích Dữ Liệu BĐS & Giáo Dục", layout="wide")
 
 # Sidebar for navigation
+st.set_page_config(page_title="Phân Tích Dữ Liệu BĐS & Giáo Dục", layout="wide")
 sidebar_options = [
     "Phân Tích BĐS & Giáo Dục",
     "Gợi Ý BĐS Dựa Trên Trường Học"
@@ -18,7 +19,7 @@ sidebar_selection = st.sidebar.selectbox("Chọn Phần", sidebar_options)
 # ======================== DASHBOARD 1 ========================
 if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
 
-    st.title("📈 Phân Tích Dữ Liệu Bất Động Sản & Giáo Dục")
+    st.title("📊 Phân Tích Dữ Liệu Bất Động Sản & Giáo Dục")
     st.markdown("---")
 
     # ======================== DASHBOARD 1 ========================
