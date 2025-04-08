@@ -337,7 +337,7 @@ elif sidebar_selection == "Gợi Ý BĐS Dựa Trên Trường Học":
     # ---- TẢI DỮ LIỆU ----
     df_school = pd.read_csv("cleaned-hcmc-schools.csv")  # Dữ liệu trường học
     df_real_estate = pd.read_csv("processed_mogi_hcm.csv")  # Dữ liệu bất động sản từ mogi
-    df_real_estate_bds = pd.read_csv("processed_bds.com_hcm.csv")  # Dữ liệu bất động sản từ bds.com
+    # df_real_estate_bds = pd.read_csv("processed_bds.com_hcm.csv")  # Dữ liệu bất động sản từ bds.com
 
 
     # ---- GIAO DIỆN CHỌN TRƯỜNG ----
@@ -349,7 +349,7 @@ elif sidebar_selection == "Gợi Ý BĐS Dựa Trên Trường Học":
 
     # Lọc danh sách bất động sản trong khu vực trường học
     df_selected_area = df_real_estate[df_real_estate["Quận/Huyện"] == selected_khu_vuc]
-    df_selected_area_bds = df_real_estate_bds[df_real_estate_bds["Quận/Huyện"] == selected_khu_vuc]
+    # df_selected_area_bds = df_real_estate_bds[df_real_estate_bds["Quận/Huyện"] == selected_khu_vuc]
 
 
     if df_selected_area.empty:
