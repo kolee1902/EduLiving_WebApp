@@ -14,7 +14,7 @@ sidebar_options = [
     "Phân Tích BĐS & Giáo Dục",
     "Gợi Ý BĐS Dựa Trên Trường Học"
 ]
-sidebar_selection = st.sidebar.selectbox("📂 Menu", sidebar_options)
+sidebar_selection = st.sidebar.selectbox("📂 MENU", sidebar_options)
 
 # ======================== DASHBOARD 1 ========================
 if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
