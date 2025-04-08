@@ -10,7 +10,14 @@ st.set_page_config(page_title="Phân Tích Dữ Liệu BĐS & Giáo Dục", layo
 
 # Sidebar for navigation
 st.sidebar.markdown("<h1 style='text-align: center;'>🏠 EduLiving App</h1>", unsafe_allow_html=True)
-st.sidebar.markdown("<h2 style='text-align:left;'>📂 MENU</h2>", unsafe_allow_html=True)
+st.sidebar.markdown(
+    """
+    <div style='margin-top: 10px; margin-bottom: -10px;'>
+        <h4>📂 <b>MENU</b></h4>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Select box chọn chức năng
 sidebar_options = [
@@ -18,7 +25,6 @@ sidebar_options = [
     "Gợi Ý BĐS Dựa Trên Trường Học"
 ]
 sidebar_selection = st.sidebar.selectbox("", sidebar_options)
-
 # ======================== DASHBOARD 1 ========================
 if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
 
