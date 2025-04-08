@@ -10,7 +10,7 @@ st.set_page_config(page_title="Phân Tích Dữ Liệu BĐS & Giáo Dục", layo
 
 # Sidebar for navigation
 st.sidebar.markdown("<h1 style='text-align: center;'>🏠 EduLiving App</h1>", unsafe_allow_html=True)
-st.sidebar.markdown("<h2 style='text-align:center;'>📂 MENU</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<h2 style='text-align:left;'>📂 MENU</h2>", unsafe_allow_html=True)
 
 # Select box chọn chức năng
 sidebar_options = [
