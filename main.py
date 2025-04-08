@@ -255,7 +255,7 @@ if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
 
     # ======= 📊 Cột 2: Bar chart top 5 trường có điểm chuẩn cao nhất =======
     with col2:
-        st.subheader("🏫 Top các trường có điểm chuẩn cao nhất")
+        st.subheader("🏫 Top trường có điểm chuẩn cao nhất")
 
         score_cols = [
             '2024_Điểm chuẩn nguyện vọng 1', '2023_Điểm chuẩn nguyện vọng 1', '2022_Điểm chuẩn nguyện vọng 1', '2021_Điểm chuẩn nguyện vọng 1',
