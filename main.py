@@ -86,7 +86,7 @@ if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
     st.header("2️⃣ Giá BĐS Theo Khoảng Cách Trường Học")
 
     guide3 = """
-    - Hãy cùng khám phá xem khoảng cách từ trường đến các bất động sản trong khu vực bạn đã chọn có ảnh hưởng đến nhau và chênh lệch giá như thế nào !!!
+    - Hãy cùng khám phá xem khoảng cách từ trường đến các bất động sản trong khu vực bạn đã chọn có ảnh hưởng đến nhau và chênh lệch giá như thế nào nhé !!!
     
     ⭐ Các bất động sản **gần** là các bđs cách trường dưới **2km**, còn **xa** là cách hơn **4km**. 
     """
