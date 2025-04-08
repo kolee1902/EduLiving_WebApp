@@ -19,7 +19,7 @@ sidebar_selection = st.sidebar.selectbox("Chọn Phần", sidebar_options)
 # ======================== DASHBOARD 1 ========================
 if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
 
-    st.title("📈 Phân Tích Dữ Liệu Bất Động Sản & Giáo Dục")
+    st.title("📊 Phân Tích Dữ Liệu Bất Động Sản & Giáo Dục")
     st.markdown("---")
 
     # ======================== DASHBOARD 1 ========================
