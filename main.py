@@ -312,7 +312,7 @@ if sidebar_selection == "Phân Tích BĐS & Giáo Dục":
     guide = """
         ⭐**Mẹo**: Bạn có thể chọn 1 trường bất kì trong top các trường có điểm chuẩn cao từ biểu đồ bên trên và
         hãy cùng xem có các bất động sản nào đang rao bán xung quanh ngôi trường này bằng cách nhấn chọn 
-        hệ thống gợi ý trong phần "Chọn phần" phía bên trái màn hình nhé !!!
+        hệ thống gợi ý trong phần "📂 MENU" phía bên trái màn hình nhé !!!
         """
 
         # Hiển thị insight
