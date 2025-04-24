@@ -39,8 +39,7 @@ To run this web application locally, follow these steps:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/your-repository-name
-   cd your-repository-name
+   git clone https://github.com/kolee1902/EduLiving_WebApp.git
    ```
 
 2. **Install dependencies**:
