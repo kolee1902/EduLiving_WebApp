@@ -49,7 +49,7 @@ To run this web application locally, follow these steps:
 
 3. **Run the Streamlit app**:
    ```
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 4. Open the app in your browser (Streamlit will provide a URL like `http://localhost:8501`).
