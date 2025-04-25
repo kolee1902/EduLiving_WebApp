@@ -1,4 +1,4 @@
-# EduLiving
+# EduLiving App
 
 This web application is built using **Streamlit** and leverages two key datasets:
 - **High School Data** in Ho Chi Minh City (HCMC)
