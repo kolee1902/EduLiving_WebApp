@@ -8,18 +8,18 @@ The product has been deployed on the domain https://eduliving.streamlit.app/
 
 
 The application serves two primary purposes:
-1. **Data Analysis** - Analyzing and comparing the high school and real estate data to derive insights.
+**1. Data Analysis** - Analyzing and comparing the high school and real estate data to derive insights.
 
 
-Here is a screenshot of the product interface of Tab 1:
+Here is a screenshot of the product interface of Data Analysis Tab:
 
 <img src="/tab-1.png" width="700"/>
 
 
-2. **Recommendation Chatbot** - Providing users with real estate recommendations near the high school of their choice based on their budget.
+**2. Recommendation Chatbot** - Providing users with real estate recommendations near the high school of their choice based on their budget.
 
 
-Here is a screenshot of the product interface of Tab 2:
+Here is a screenshot of the product interface of Recommendation Chatbot Tab:
 
 <img src="/tab-2.png" width="700"/>
 
